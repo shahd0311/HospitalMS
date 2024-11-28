@@ -1,0 +1,20 @@
+﻿@model Patient
+@{
+    ViewData["Title"] = "PatientProfile";
+}
+
+<h1>Patient Profile</h1>
+
+<br />
+
+<h2>Your Data</h2>
+
+<br />
+<br />
+
+<h4>Name : <span style="color:orangered">@Model.FName @Model.LName</span> </h4>
+<h4>Username : <span style="color:orangered">@Model.Username</span> </h4>
+<h4>Email : <span style="color:orangered">@Model.Email</span> </h4>
+<h4>BirthDate : <span style="color:orangered">@Model.BirthDate</span> </h4>
+<h4>Gender : <span style="color:orangered">@Model.Gender</span> </h4>
+<h4>Phone : <span style="color:orangered">@Model.Phone</span> </h4>
